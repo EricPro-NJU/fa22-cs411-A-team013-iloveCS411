@@ -3,11 +3,11 @@ runtime: python38 # or another supported version
 instance_class: F1
 
 env_variables:
-  INSTANCE_UNIX_SOCKET: '/cloudsql/cs411-team013:us-central1:i-course-database'
+  INSTANCE_UNIX_SOCKET: 'YOUR CONNECTION NAME' # No need to fill in
   MYSQL_USER: 'root' # please put in your credentials
-  MYSQL_PASSWORD: 'Team@013' # please put in your credentials
+  MYSQL_PASSWORD: 'YOUR PASSWORD' # please put in your credentials
   MYSQL_DB: 'icourse' # please put in your credentials
-  MYSQL_HOST: '130.211.118.39' # please put in your credentials
+  MYSQL_HOST: 'YOUR DATABASE' # please put in your credentials
 
 handlers:
 # Matches requests to /images/... to files in static/images/...
